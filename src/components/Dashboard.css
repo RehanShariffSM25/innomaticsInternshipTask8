@@ -1,0 +1,37 @@
+.dashboard {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center; /* Center align text for better appearance */
+}
+
+h1 {
+    color: #4a4a4a; /* Dark color for header */
+    margin-bottom: 10px;
+    font-size: 2.5em; /* Larger font size */
+}
+
+h2 {
+    color: #7a7a7a; /* Lighter color for subheader */
+    margin-bottom: 10px;
+    font-size: 1.8em; /* Slightly larger font size */
+}
+
+.total-students {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Adjust chart styles */
+.recharts-responsive-container {
+    margin-top: 20px;
+}
